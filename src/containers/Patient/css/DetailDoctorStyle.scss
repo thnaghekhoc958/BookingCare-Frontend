@@ -1,0 +1,107 @@
+.doctor-detail-container {
+    max-height: max-content;
+    // height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin: 0 10px; /* Căn giữa và tạo khoảng cách đều từ hai bên */
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .description-initially-1 {
+        display: flex;
+        height: 200px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        // border: 1px solid black;
+
+        .content-left {
+            width: 20%;
+            // border: 1px solid rgba(223, 18, 18, 0.733);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10px;
+
+            .img-custom-image {
+                border: 1px solid green;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                filter: brightness(0.8);
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+                transition: transform 0.3s ease; /* Tạo hiệu ứng chuyển động mượt */
+                border: none;
+                &:hover {
+                    border: 3px solid #90f064;
+                }
+            }
+        }
+        .content-right {
+            // height: 100%;
+            // width: 80%;
+            // border: 1px solid rgba(223, 18, 18, 0.733);
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            .up {
+                font-size: 20px;
+                font-weight: 600;
+                .title-name-doctor-1 {
+                    font-size: 1.8rem; // Kích thước chữ lớn cho tiêu đề
+                    display: inline-block;
+                  }
+            }
+            .down {
+                padding-top: 10px;
+                .description-doctor-2 {
+                    font-size: 1.0rem; // Kích thước nhỏ hơn cho mô tả
+                    padding-top: 8px;
+                  }
+            }
+        }
+    }
+    .schedule-address-2 {
+        margin-top: 10px;
+        height: 300px;
+        width: 100%;
+
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        // border: 1px solid black;
+        .shcedule-content-left{
+            width: 50%;
+            // border: 1px solid black;
+            height: auto;
+        }
+        .shcedule-content-right{
+            width: 50%;
+
+        }
+    }
+    .description-Detail-Doctor-3 {
+        margin-top: 10px;
+        height: auto;
+        width: 100%;
+        // border: 1px solid black;
+        margin-bottom: 10px;
+
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        .MarkDown-Content-doctor-2{
+            
+        }
+    }
+}

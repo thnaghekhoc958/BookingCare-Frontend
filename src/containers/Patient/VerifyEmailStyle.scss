@@ -1,0 +1,60 @@
+.verify-email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+
+  .verify-email-message {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+
+    &.verify-success {
+      border: 2px solid #4caf50;
+
+      .verify-title {
+        color: #4caf50;
+      }
+    }
+
+    &.verify-failed {
+      border: 2px solid #ff5722;
+
+      .verify-title {
+        color: #ff5722;
+      }
+    }
+
+    .verify-title {
+      font-size: 2rem;
+      margin-bottom: 15px;
+    }
+
+    .verify-description {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .verify-back-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: #fff;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: darken(#007bff, 10%);
+      }
+    }
+  }
+}

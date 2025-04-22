@@ -1,0 +1,242 @@
+$blue: #3498db; // hoặc giá trị màu xanh mà bạn muốn
+
+.home-header-container {
+    height: 100px;
+    // border: 1px solid red;
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 10px 20px;
+
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    // &.header-no-Sticky {
+    //     z-index: unset;
+    //     box-shadow: unset;
+    //     position: static; // hoặc unset nếu không muốn dùng `static`
+    //     top: unset;
+    //     background-color: unset;
+    // }
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 40px;
+
+        .left-content {
+            width: 25%;
+
+            display: flex;
+            align-items: center;
+
+            .header-logo {
+                background-image: url(../../../assets/tải_xuống-removebg-preview.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain; 
+                width: 100%; 
+                height: 50%; 
+                cursor: pointer;
+            }
+
+            i {
+                font-size: 25px;
+                color: gray;
+                cursor: pointer;
+                padding-left: 35px;
+            }
+        }
+
+        .center-content {
+            width: 50%;
+            display: flex;
+            gap: 50px;
+            padding: 1px;
+            padding-left: 50px;
+            // justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+                text-align: center;
+                // border-left: 1px solid rgb(33, 20, 219);
+                align-content: center;
+                width: 25%;
+                .Sub-title {
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+        .right-content {
+            width: 25%;
+
+            .support {
+                display: flex;
+                justify-content: flex-start;
+                align-items: baseline;
+                padding-right: 20px;
+                height: 50%;
+                gap: 10px;
+                i {
+                    // border: 1px solid red;
+                    font-size: 25px;
+                    color: blue;
+                    cursor: pointer;
+                }
+                .child-support {
+                    font-size: 20px;
+                }
+                .flag {
+                    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    margin-left: 25px;
+                    font-size: 15px;
+                }
+                .language-vn {
+                    cursor: pointer;
+                    opacity: 0.2;
+
+                    &.active {
+                        opacity: 1;
+                        span {
+                            color: red;
+
+                        }
+                    }
+                }
+                .language-en {
+                    margin: 0 10px;
+                    cursor: pointer;
+                    opacity: 0.2;
+                    &.active {
+                        opacity: 1;
+                        span{
+                            color: blueviolet;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    // background-image: url(../../../assets/Header-BackGround-BookingCare.jpg);
+    background: linear-gradient(to right, rgba(158, 230, 148, 0.8), rgba(154, 155, 161, 0.8)), 
+    url(../../../assets/Header-BackGround-BookingCare.jpg);
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0.95;
+    height: max-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // margin: 15px 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .content-up {
+        // height: 50%;
+        // padding-top: 35px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .title-1 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px rgb(42, 11, 223);
+            margin-top: 30px;
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+        .title-2 {
+            text-align: center;
+            color: whitesmoke;
+            font-size: 30px;
+            margin-top: 30px;
+            text-shadow: 1px 1px 1px rgb(45, 10, 204);
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 30px;
+            background-color: rgb(255, 196, 25);
+
+            i {
+                margin: 0 5px;
+            }
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+        }
+        .result-arr{
+            height: 100px;
+            background-color: white;
+            margin:  0px auto;
+            padding: 0px;
+            border: 1px solid black;
+            box-shadow: 5px 10px #888888;
+            height: max-content;
+        }
+    }
+
+    .content-down {
+        margin-top: 18px;
+        height: 50%;
+        padding: 0 70px;
+
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        opacity: 0.8;
+
+        padding-bottom: 10px;
+        // background: linear-gradient(to bottom left, rgb(169, 238, 195), rgb(141, 125, 201));
+    }
+    .option {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        justify-content: center;
+
+        .option-child {
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: translateY(-2px);
+                color: #45c3d2;
+            }
+        }
+    }
+}
+
+.btn-login, .btn-register {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover, .btn-register:hover {
+    background-color: #0056b3;
+}

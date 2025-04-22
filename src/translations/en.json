@@ -1,0 +1,258 @@
+{
+  "home-header": {
+    "speciality": "speciality",
+    "find a doctor by specialty": "find a doctor by specialty",
+    "choose a hospital clinic": "choose a hospital clinic",
+    "healthcare facility": "Healthcare Facility",
+    "Doctors": "Doctors",
+    "Choose Doctors": "Choose Doctors",
+    "Examination Package": "Examination Package",
+    "general health check-up": "general health check-up",
+    "Support": "Support",
+    "HEALTHCARE SERVICE PLATFORM": "HEALTHCARE SERVICE PLATFORM",
+    "BRINGING THE BEST EXPERIENCE TO CUSTOMERS": "BRINGING THE BEST EXPERIENCE TO CUSTOMERS",
+    "Find a Specialist for Medical Examination": "Find a Specialist for Medical Examination",
+    "Specialized Examination": "Specialized Examination",
+    "Remote Examination": "Remote Examination",
+    "General Check-up": "General Check-up",
+    "Medical examination test": "Medical examination test",
+    "Mental Health": "Mental Health",
+    "Dental Examination": "Dental Examination",
+    "welcome": "Welcome "
+  },
+
+  "facility": {
+    "healthcare facility": "Healthcare Facility",
+    "see more": "see more",
+    "Vietduc University Hospital": "Vietduc University Hospital",
+    "Cho ray Hopspital": "Cho ray Hopspital",
+    "Doctor Check": "Doctor Check-Advanced Disease Screening Center",
+    "University Medical Center Clinic 1 ": "University Medical Center Clinic 1",
+    "Periodic Health Examination Center, 108 Military Central Hospital": "Periodic Health Examination Center, 108 Military Central Hospital",
+    "Hung Viet Cancer Hospital": "Hung Viet Cancer Hospital"
+  },
+
+  "Guide": {
+    "Guide": "Guide"
+  },
+
+  "specialty": {
+    "popular specialty": "Popular Specialty",
+    "see more": "see more",
+
+    "musculoskeletal system": "musculoskeletal system",
+    "nervous system": "Tnervous system",
+    "digestive system": "digestive system",
+    "cardiovascular disease": "cardiovascular disease",
+    "otorhinolaryngology ": "otorhinolaryngology",
+    "spine": "spine"
+  },
+
+  "Doctor": {
+    "Doctor of the Week": "Doctor of the Week",
+    "associate professor,Doctor of Philosophy,Doctor": "associate professor,Doctor of Philosophy,Doctor",
+    "associate professor,Doctor of Philosophy": "associate professor,Doctor of Philosophy",
+    "Doctor of Philosophy, Doctor specialty": "Doctor of Philosophy, Doctor specialty",
+    "Doctor Specialty": "Doctor Specialty",
+    "Doctor of Philosophy,Doctor": "Doctor of Philosophy,Doctor",
+
+    "Dr.Nguyen Trong Hung": "Dr.Nguyen Trong Hung",
+    "Dr.Nguyen Van Lieu": "Dr.Nguyen Van Lieu",
+    "Dr.Kieu Dinh Hung": "Dr.Kieu Dinh Hung",
+    "Dr.Tra Anh Duy": "Dr.Tra Anh Duy",
+    "Dr.Phan Vuong Huy Dong": "Dr.Phan Vuong Huy Dong",
+    "Dr.Pham Chi Lang": "Dr.Pham Chi Lang",
+
+    "content-doctor": {
+      "createContentOfDoctor": "create Content Of Doctor",
+      "ChooseDoctor": "Choose Doctor",
+      "introductionInformation": "Introduction Information",
+
+      "Price" : "Price",
+      "Province" : "Province",
+      "Payment" : "Payment Methods",
+      "AddressClinic" : "Address Clinic",
+      "ClinicName" : "Clinic Name",
+      "Note": "Note",
+      "medicalAppiontment": {
+        "SCHEDULEANAPPOINTMENT": "SCHEDULE AN APPOINTMENT",
+        "fullName": "fullName",
+        "PhoneNumber": "Phone Number",
+        "ContactAddress": "Contact Address",
+        "ReasonForExamination": "Reason For Examination",
+        "ForSomeone": "For Someone?",
+        "Gender":"Gender",
+        "birthday": "BirthDay"
+      }
+
+    }
+
+  },
+
+  "menu": {
+    "system": {
+      "header": "System",
+      "system-administrator": {
+        "header": "System Administrator",
+        "user-manage": "User manage",
+        "user-redux": "Manage User using Redux",
+        "register-package-group-or-account": "Register service package for group/account"
+      },
+      "system-parameter": {
+        "header": "System-parameter"
+      }
+    },
+    "admin": {
+      "manager-user": "User Management",
+      "manager-doctor": "Doctor Management",
+      "manager-admin": "Admin Management",
+      "crud": "User Crud",
+      "crud-redux": "Redux Crud",
+
+      "clinic": "Clinic",
+      "manage-clinic": "Manage Clinic",
+
+      "specialty": "Specialty",
+      "manage-specialty": "Manage Specialty",
+
+      "handbook": "Handbook",
+      "manage-handbook": "Manage Handbook"
+    },
+    "doctor": {
+      "manager-schedule": "Manager Doctor's Schedule"
+    }
+  },
+  "manage-user": {
+    "add": "Add",
+    "Edit User With Redux": "Edit User",
+    "Password": "Password",
+    "Full Name": "Full Name",
+    "Phone Number": "Phone Number",
+    "Address": "Address",
+    "Image": "Upload Profile Picture!",
+    "Gender": "Gender",
+    "Position": "Position",
+    "Role Id": "Role Id",
+    "Save": "Save",
+    "view-table": "View All Data Table",
+    "Index": "Index",
+    "Action": "Action"
+  },
+
+  "common": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "decentralize": "Decentralize",
+    "close": "Close",
+    "save": "Save",
+    "refresh": "Refresh",
+    "accept": "Accept",
+    "confirm": "Confirm",
+    "confirm-this-task": "Are you sure to process this task?",
+    "fail-to-load-data": "Fail to load data",
+    "unknown-error": "There was an error",
+    "internal-server-error": "Internal server error",
+    "bad-request": "Bad request",
+    "forbiden-request": "Invalid input data",
+    "fail-to-load-all-code": "Fail to load data from allcode",
+    "sum": "Sum",
+    "date-range-invalid": "Date range invalid"
+  },
+  "login": {
+    "login": "Login",
+    "username": "Username",
+    "password": "Password",
+    "userpass-wrong": "Invalid username or password!"
+  },
+
+  "system": {
+    "user-manage": {
+      "fail-to-load-fouser": "Fail to load system users list",
+      "user-id": "User ID",
+      "usertype": "User type",
+      "username": "Username",
+      "fullname": "Fullname",
+      "mobile": "Phone",
+      "email": "Email",
+      "status": "Status",
+      "add-user": "Add user",
+      "edit-user": "Edit user information",
+      "password": "Password",
+      "retype-password": "Retype password",
+      "add-user-success": "Add user successfully",
+      "edit-user-success": "Change user information successfully",
+      "add-user-fail": "Fail to add user",
+      "edit-user-fail": "Fail to change user information",
+      "del-user-success": "Delete user successfully",
+      "del-user-fail": "Fail to delete user",
+      "invalid-input": {
+        "username": "Please fill in username",
+        "fullname": "Please fill in fullname",
+        "password": "Please fill in password"
+      },
+      "sure-delete-user": "Are you sure to delete this user?"
+    },
+    "product-manage": {
+      "fail-to-load-foprtype": "Fail to load packages list",
+      "prid": "Package ID",
+      "prname": "Package name",
+      "prtype": "Package type",
+      "status": "Status",
+      "description": "Description",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "add-product": "Add package",
+      "add-product-success": "Add package successfully",
+      "add-product-fail": "Fail to add package",
+      "edit-product": "Edit package information",
+      "package-decentralize": "Package decentralize",
+      "edit-product-success": "Edit package information successfully",
+      "edit-product-fail": "Fail to edit package information",
+      "delete-product-success": "Delete package successfully",
+      "delete-product-fail": "Fail to delete package",
+      "invalid-input": {
+        "prid": "Please fill in package ID",
+        "prname": "Please fill in package name"
+      },
+      "fail-to-load-decentralize-info": "Fail to load decentralize info",
+      "save-decentralize-success": "Save decentralization successfully",
+      "save-decentralize-fail": "Fail to save decentralization",
+      "sure-delete-package": "Are you sure to delete this package?"
+    },
+    "register-package-group-or-acc": {
+      "assign-service-package-to-customer": "Assign service package to customer",
+      "package-name": "Package name",
+      "assign-type": "Assign type",
+      "cust-acc-group": "Customer/account group",
+      "effective-date": "Effective date",
+      "expiration-date": "Expiration date",
+      "assign": "Assign",
+      "manage-assign-groups": "Manage assign groups",
+      "group-cust-acc-name": "Group/customer account name",
+      "del-assign": "Del assign",
+      "fail-to-load-manage-assign-groups-list": "Fail to load manage assign groups list",
+      "invalid-selected": {
+        "currentfoProduct": "Invalid package",
+        "currentAssignType": "Invalid assign type",
+        "currentFoUser": "Invalid customer/account group"
+      },
+      "assign-service-package-to-customer-success": "Assign service package to customer successfully",
+      "assign-service-package-to-customer-fail": "Fail to assign service package to customer",
+      "remove-assign-success": "Unassign service package to customer successfully",
+      "remove-assign-fail": "Fail to unassign service package to customer",
+      "sure-delete-assign": "Are you sure to unassign service package to customer?"
+    }
+  },
+  "schedule": {
+    "title": "Manager Schedule Doctor",
+    "chooseDoctor": " Choose Doctor",
+    "chooseDateTime": " Choose Date Time",
+    "chooseTime": "Choose range time"
+  },
+  "error": {
+    "rangTime": "You have not created a time input!",
+    "StartTime": "you have not created a time input start!!",
+    "EndTime": "you have not created a time input End!!"
+  }
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+
+.login-background {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    font-family: "work sans";
+    height: 100vh;
+    // background-color: green;
+    border: 1px solid red;
+
+    .login-container {
+        width: 400px;
+        margin: 0 auto;
+        border-radius: 40px;
+        background: white;
+        height: 70%;
+        margin-top: 90px;
+
+        .login-content {
+            padding: 10px;
+            .text-login {
+                text-align: center;
+                font-size: 20px;
+                font-weight: 600px;
+                padding-top: 10px;
+            }
+            .form-control {
+                border-radius: 50px;
+            }
+            .form-controll-eyes {
+                position: relative;
+            }
+            i.eye-show-password {
+                position: absolute;
+                right: 7px;
+                top: 10px;
+                cursor: pointer;
+            }
+
+            .text-login {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            .login-input {
+                margin: 10px 0;
+            }
+            .btn-login {
+                width: 100%;
+                margin: 10px 0;
+                height: 30px;
+                border-radius: 15px;
+                font-size: 16px;
+                outline: none;
+                border: none;
+                background: rgb(34, 193, 195);
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+                font-family: "work sans";
+                color: white;
+            }
+            .forgot-password {
+                font-size: 12px;
+            }
+            .social-login {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                i {
+                    font-size: 35px;
+                    margin: 0 10px;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                i.fa-brands.fa-google {
+                    // background-color: red;
+                    // border-radius: 50px;
+                    // color: linear-gradient(135deg, rgb(27, 87, 88) 0%, rgba(253, 187, 45, 1) 100%);
+                    // background-color: red;
+                    border-radius: 50px;
+                    background-image: linear-gradient(135deg, rgb(27, 87, 88) 0%, rgba(253, 187, 45, 1) 100%);
+                    color: white; /* Màu của biểu tượng sẽ được giữ nguyên */
+                    // display: inline-block;
+                    padding: 10px; /* Tạo khoảng trống xung quanh biểu tượng */
+                }
+                i.fa-brands.fa-facebook {
+                    color: whitesmoke;
+                    background-color: blue;
+                    // border-radius: 50px;
+                }
+            }
+        }
+    }
+}

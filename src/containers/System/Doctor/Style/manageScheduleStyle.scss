@@ -1,0 +1,185 @@
+.manager-schedule-container {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  height: max-content;
+
+  .m-s-title {
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 3em;
+  }
+  .container{
+    .row{
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      .group-action-range-time{
+        margin-top: 10px;
+        .group-action-range-time{
+          margin-top: 10px;
+
+        }
+      }
+      .result-range-hours{
+        max-height: fit-content;
+        max-width: fit-content;
+        .button-73 {
+          appearance: none;
+          background-color: #FFFFFF;
+          border-radius: 40em;
+          border-style: none;
+          box-shadow: #ADCFFF 0 -12px 6px inset;
+          box-sizing: border-box;
+          color: #000000;
+          cursor: pointer;
+          display: inline-block;
+          font-family: -apple-system,sans-serif;
+          font-size: 1.2rem;
+          font-weight: 700;
+          letter-spacing: -.24px;
+          margin: 0;
+          outline: none;
+          padding: 1rem 1.3rem;
+          quotes: auto;
+          text-align: center;
+          text-decoration: none;
+          transition: all .15s;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+
+          margin-right: 10px;
+        }
+        
+        .button-73:hover {
+          background-color: #FFC229;
+          box-shadow: #FF6314 0 -6px 8px inset;
+          transform: scale(1.125);
+        }
+        
+        .button-73:active {
+          transform: scale(1.025);
+        }
+        
+        @media (min-width: 768px) {
+          .button-73 {
+            font-size: 1.5rem;
+            padding: .75rem 2rem;
+          }
+        }    
+      }
+      .pick-hour-container {
+        margin-top: 10px;
+        width: 98%;
+        // border: 1px solid red;
+        margin: 22px 10px;
+        max-height: fit-content;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* From Uiverse.io by e-coders */
+        .btn.btn.btn-secondary{
+          height: fit-content;
+          width: fit-content;
+          border: none;
+          background-color: whitesmoke;
+          color: #000000;
+        }
+        .active{
+          border-radius: 20px;
+          height: fit-content;
+          width: fit-content;
+          background-color: #59d633;
+          box-shadow: rgba(86, 101, 235, 0.25) 0 8px 15px;
+        }
+      }
+      .save-them {
+        margin-top: 10px;
+        height: 100px;
+    
+        .save32-button-primary {
+          background-color: #0078d0;
+          border: 0;
+          border-radius: 56px;
+          color: #fff;
+          cursor: pointer;
+          display: inline-block;
+          font-family:
+            system-ui,
+            -apple-system,
+            system-ui,
+            "Segoe UI",
+            Roboto,
+            Ubuntu,
+            "Helvetica Neue",
+            sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          outline: 0;
+          padding: 16px 21px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          transition: all 0.3s;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+    
+        .save32-button-primary:before {
+          background-color: initial;
+          background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+          border-radius: 125px;
+          content: "";
+          height: 50%;
+          left: 4%;
+          opacity: 0.5;
+          position: absolute;
+          top: 0;
+          transition: all 0.3s;
+          width: 92%;
+        }
+    
+        .save32-button-primary:hover {
+          box-shadow:
+            rgba(255, 255, 255, 0.2) 0 3px 15px inset,
+            rgba(0, 0, 0, 0.1) 0 3px 5px,
+            rgba(0, 0, 0, 0.1) 0 10px 13px;
+          transform: scale(1.05);
+        }
+    
+        @media (min-width: 768px) {
+          .save32-button-primary {
+            padding: 16px 48px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+label.text-center.label-time{
+  width: 100%;
+}
+
+
+
+
+button.btn.btn-success{
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+}

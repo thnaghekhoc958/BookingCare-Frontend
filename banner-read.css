@@ -1,0 +1,240 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  /* border: 1px solid red; */
+  height: 500px;
+
+  background: url("image/header/background_for.png") center center no-repeat;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* flex-direction: column-reverse; */
+  /* grid-template-columns: repeat(3, 1fr);  */
+}
+.logo {
+  background: url("image/header/logo.webp") no-repeat;
+  display: flex;
+  /* display: inline-block; */
+  width: 500px;
+
+  background-size: contain;
+  margin-right: 100px;
+}
+
+.sign-in-about-us {
+  font-family: "Courier New", Courier, monospace;
+  height: 187px;
+  width: 100%;
+  /* float: right; */
+  text-align: right;
+  text-transform: uppercase;
+  /* margin-top: 20px; */
+  color: blueviolet;
+  text-align: right;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: bold;
+  position: static;
+}
+.sign-in-about-us a{
+  font-size: 18px;
+}
+
+.menu-display {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  --color1: white;
+  /* background-color: blueviolet; */
+
+}
+
+.all-dislply-menu{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-icon {
+  cursor: pointer;
+  font-size: 36px;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #333333; */
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 1000;
+}
+
+.menu-toggle:checked + .menu-icon + .menu {
+  display: flex;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.nav-bar li {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color:#00539c;
+  font-size: 18px;
+  display: block;
+  
+}
+
+/* Hiệu ứng khi hover lên các mục menu */
+.nav-bar li a:hover {
+  background-color: rgba(255, 68, 0, 0.794);
+}
+
+/* Đảm bảo biểu tượng menu và menu điều hướng không bị trùng lặp trên màn hình lớn */
+@media (min-width: 769px) {
+  .menu {
+    display: flex !important;
+    flex-direction: row;
+    position: static;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+  }
+
+  .nav-bar li {
+    margin: 0 10px;
+    width: auto;
+  }
+}
+
+.nav-bar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  position: relative;
+
+
+}
+
+
+
+.sign-in-about-us a {
+  text-decoration: none;
+  padding: 0 10px; /* Tạo khoảng cách giữa text và border */
+  color: inherit; /* Giữ nguyên màu chữ của link */
+  border-left: 1px solid rgb(0, 0, 0); /* Tạo thanh dọc bên trái */
+}
+
+.about_us {
+  margin-right: 10px;
+  text-decoration: none;
+}
+.sign_in {
+  /* font-family: 'Courier New', Courier, monospace; */
+  text-decoration: none;
+  /* border-radius: 20px; */
+  padding: 10px;
+}
+.sign_up {
+  /* border: 1px solid rgb(48, 218, 32); */
+  /* margin-left: 25px; */
+  margin-right: 60px;
+  text-decoration: none;
+  /* border-radius: 20px; */
+  padding: 10px;
+}
+.logo-and-search-box {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  /* gap: 100px; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  position: absolute;
+}
+/* .header-der{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    position: relative;
+    flex-direction: row
+    
+} */
+
+.search-box {
+  --padding: 10px;
+
+  /* width: 300px; */
+  display: flex;
+  padding: var(--padding);
+  border-radius: 28px;
+  background: white;
+  transition: box-shadow 0.25s;
+  align-self: flex-start;
+  margin-bottom: 0; /* Remove the large margin-bottom */
+  margin-left: 0; /* Remove the large margin-left */
+  /* flex-grow: 0; */
+  /* width: 100%; */
+}
+.search-input {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+  margin-left: var(--padding);
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 300px;
+}
+.search-input::placeholder,
+.search-icon {
+  color: black;
+}
+
+.search:focus-within {
+  background-color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .logo-and-search-box {
+    flex-direction: column; /* Chuyển sang bố cục dọc trên màn hình nhỏ */
+    gap: 20px;
+  }
+}

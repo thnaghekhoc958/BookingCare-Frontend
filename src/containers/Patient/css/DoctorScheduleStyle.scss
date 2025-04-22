@@ -1,0 +1,61 @@
+.doctor-schedule-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .infor-shedule {
+        .all-schedule {
+            margin-bottom: 30px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            .calendar-schedule{
+
+            }
+            .form-select {
+                &:hover,
+                &:focus {
+                    border-color: #80bdff;
+                    outline: none;
+                }
+            }
+        }
+
+        .all-available-time {
+            .text-cenlendar {
+                font-size: 20px;
+                font-weight: bold;
+                color: #495057;
+                // display : flex;
+                // align-items: center
+
+                i {
+                    color: #007bff;
+                    display: flex;
+                    align-items: center; // Căn giữa icon với chữ theo chiều dọc
+                }
+
+                span {
+                    white-space: nowrap;
+                    margin-left: 10px;
+                    text-align: center;
+                    font-family: "Times New Roman", Times, serif;
+                }
+            }
+        }
+        .container-fluid{
+            margin-bottom: 10px;
+            .View-time{
+                margin-left: 20px;
+                width: 160px;
+                height: 40px;
+                color: black;
+                margin: 10px 15px;
+            }
+        }
+    }
+}

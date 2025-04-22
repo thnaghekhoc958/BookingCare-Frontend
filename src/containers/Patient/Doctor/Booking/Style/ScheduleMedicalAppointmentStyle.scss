@@ -1,0 +1,192 @@
+.schedule-appointment {
+  display: flex;
+  flex-direction: column;
+  background-color: white !important;
+    margin-top: 20px; // Tạo khoảng cách với phần trên cùng
+    width: max-content;
+    height: max-content;
+    .appointment-card {
+        width: 100vw; /* Chiều rộng toàn màn hình */
+        margin-left: calc(-50vw + 50%); /* Dịch ra giữa màn hình */
+        background-color: #dddddd98;
+
+        display: flex;
+        // align-items: flex-start;
+        justify-content: center;
+        background-color: #f9f9f9;
+        border: 1px solid #e6e6e6;
+        border-radius: 8px;
+        padding: 16px;
+        margin-bottom: 20px; // Tạo khoảng cách với phần tiếp theo
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        .doctor-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center; // Tất cả phần tử được căn giữa theo chiều ngang
+            justify-content: center;
+
+            .doctor-image {
+                width: 120px;
+                height: 120px;
+                border-radius: 54%;
+                
+                object-fit: cover;
+                margin-right: 16px;
+                box-shadow: 0 10px 4px rgba(71, 41, 41, 0.466);
+                background-color: #ddd;
+                margin-bottom: 20px;
+                margin-bottom: 1rem; // Khoảng cách giữa hình ảnh và các phần tử khác
+            }
+
+            .appointment-details {
+                .appointment-title {
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #3a6ea5;
+                    margin: 0 0 8px;
+                }
+
+                .doctor-name {
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #444;
+                    margin: 4px 0;
+                }
+                
+                .hospital-info {
+                    display: flex;
+                    align-items: center;
+                    font-size: 14px;
+                    color: #666;
+                    margin: 4px 0;
+                   
+                      
+                    .icon {
+                        margin-right: 8px;
+                        font-size: 16px;
+                        color: #ffb400;
+                    }
+                }
+
+                .hospital-address {
+                    font-size: 14px;
+                    color: #888;
+                    margin: 4px 0;
+                }
+            }
+        }
+    }
+
+    h2 {
+        font-size: 24px;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 20px; // Tạo khoảng cách với form
+    }
+
+    .form-group {
+        margin-bottom: 16px; // Khoảng cách giữa các input
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #333;
+
+            &:focus {
+                border-color: #3a6ea5;
+                outline: none;
+                box-shadow: 0 0 4px rgba(58, 110, 165, 0.2);
+            }
+        }
+    }
+
+    .container-fluid{
+        height: max-content;
+        margin-bottom: 30px;
+        .appointment-time{
+            .container {
+                display: flex;
+                flex-direction: column;  /* Sắp xếp các phần tử theo chiều dọc */
+                align-items: center;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                width: max-content;
+                margin: 20px auto;
+              }
+              
+              .time-section {
+                display: flex;
+                align-items: center;
+                justify-content: center; /* Đảm bảo các phần tử nằm ở hai bên */
+                width: 100%;  /* Chiếm hết chiều rộng */
+                margin-bottom: 10px;
+              }
+              
+              .price-section {
+                display: flex;
+                align-items: center;
+                justify-content: center; /* Canh giữa icon và giá */
+                width: 100%;
+                margin-top: 10px;
+                padding-top: 5px;
+                border-top: 1px solid #e0e0e0;  /* Thêm đường viền trên */
+              }
+              
+              .icon {
+                font-size: 1.5rem;
+                margin-right: 8px;
+                color: #4caf50; /* Màu xanh lá cây cho icon */
+              }
+              
+              .time-info {
+                white-space: nowrap;
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #333;
+              }
+              
+              .price-info {
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #ff5722; /* Màu cam cho giá tiền */
+              }
+              
+              @media (max-width: 600px) {
+                .container {
+                  width: 100%;
+                  padding: 15px;
+                }
+              
+                .time-info, .price-info {
+                  font-size: 1rem;
+                }
+              
+                .icon {
+                  font-size: 1.2rem;
+                }
+              }
+              
+              
+        }
+        .button-group{
+            margin-top: 20px;
+        }
+    }
+}
+
+

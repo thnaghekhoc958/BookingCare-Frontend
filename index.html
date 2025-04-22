@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cửa Hàng Bán Sách</title>
+    <!-- Liên kết đến các file CSS -->
+    <link rel="stylesheet" href="banner-read.css" />
+    <link rel="stylesheet" href="main-read.css" />
+    <!-- Đóng dấu nháy đúng -->
+
+    <!-- Liên kết đến Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+
+  <body>
+    <div className="banner">
+      <div className="logo-and-search-box">
+        <div className="logo"></div>
+        <div className="search-box">
+          <span className="material-symbols-outlined">search</span>
+          <input
+            className="search-input"
+            type="search"
+            placeholder="Tìm kiếm"
+            aria-label="Search box"
+          />
+        </div>
+        <div className="sign-in-about-us">
+          <a href="#" className="about_us">Giới thiệu</a>
+          <a href="#" className="sign_in">Đăng Ký</a>
+          <a href="#" className="sign_up">Đăng Nhập</a>
+        </div>
+      </div>
+
+      <div className="menu-display">
+        <div className="all-dislply-menu">
+          <input type="checkbox" id="menu-toggle" className="menu-toggle" />
+          <label for="menu-toggle" className="menu-icon">
+            <span className="material-symbols-outlined">menu</span>
+          </label>
+          <nav className="menu">
+            <ul className="nav-bar">
+              <li className="logo_bar_menu">
+                <span className="material-symbols-outlined">menu_book</span>
+              </li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">PRODUCTS</a></li>
+              <li><a href="#">SERVICES</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div className="content-center"></div>
+      <div className="text"></div>
+      <div className="btn-start now"></div>
+    </div>
+    <div className="main">
+      <div className="horizontal-introduction">
+        <div className="tile-horizontal-bottom-line">
+          <div className="horizontal-child">
+            <h3>
+              <a href="new-arrivals" title="New Arrivals">New Arrivals</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div className="banner_advertisement"></div>
+      <div className="product_&book"></div>
+    </div>
+    <div className="footer">
+      <div className="convenience-sevice"></div>
+      <div className="all-information-for-us"></div>
+      <div className="detailed information"></div>
+      <div className="policy"></div>
+      <div className="FanPage"></div>
+      <div className="off-topic"></div>
+    </div>
+    <div className="the-end"></div>
+  </body>
+</html>

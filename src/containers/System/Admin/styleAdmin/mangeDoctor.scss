@@ -1,0 +1,133 @@
+@import "~bootstrap/scss/bootstrap";
+.manage-doctor-container {
+  height: 1000px;
+  max-width: 1200px;
+  margin: 0 auto; // Căn giữa container
+  padding: 20px;
+  background: #f9f9f9; // Màu nền nhẹ nhàng cho tổng thể
+  border-radius: 10px; // Bo tròn các góc cạnh cho mềm mại
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Bóng đổ tạo chiều sâu
+  font-family: "Roboto", sans-serif; // Font chữ hiện đại
+
+  .form-group-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    .form-group {
+      flex: 1 1 calc(50% - 20px);
+      display: flex;
+      flex-direction: column;
+      label {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      input,
+      select {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+      }
+    }
+  }
+
+  .more-infor {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    .content-left{
+      margin-bottom: 30px;
+    }
+  }
+  .manage-doctor-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px; // Tăng khoảng cách giữa các chữ cái để tiêu đề trông rõ hơn
+
+    &::after {
+      content: "";
+      width: 100px;
+      height: 3px;
+      background-color: #00bfa5; // Thanh ngang màu sắc nổi bật
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .manage-doctor-editor {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff; // Màu nền trắng cho vùng chỉnh sửa
+    border: 1px solid #ddd; // Viền nhẹ cho khung editor
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); // Bóng đổ nhẹ
+
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); // Hiệu ứng nổi lên khi hover
+    }
+
+    .MdEditor {
+      height: 500px; // Đảm bảo chiều cao của editor
+    }
+  }
+  .action-button {
+    display: flex;
+    flex-direction:row-reverse;
+
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1); 
+    position: sticky;
+    bottom: 0;
+    background-color: #ffffff;
+    // justify-content: space-between; // Xếp phần tử đầu sang trái, cuối sang phải
+    // align-items: center;
+    .group-row{
+      padding-right: 10px;
+      padding-bottom: 10px;
+
+      display: flex;
+      flex-direction:row-reverse;
+      justify-content: space-between; // Xếp phần tử đầu sang trái, cuối sang phải
+      align-items: center;
+      gap: 20px;
+      .save-content-doctor,.edit-content-doctor {
+        right: 0;
+        display: block;
+        width: 80px;
+        height: 40px;
+        margin: 30px 0 0 auto;
+        display: flex;
+        align-items: center; // Căn giữa theo chiều dọc
+        justify-content: center; // Căn giữa theo chiều ngang
+  
+        padding: 10px;
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px; // Bo tròn tạo hình dạng nút thân thiện
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); // Bóng đổ làm nút nổi bật
+        transition:
+          background-color 0.3s ease,
+          transform 0.3s ease; // Hiệu ứng chuyển đổi mượt mà
+  
+        &:hover {
+          transform: translateY(-3px); // Dịch chuyển lên nhẹ khi hover
+          border: 3px solid black;
+        }
+      }
+      .edit-content-doctor{
+        @extend .btn-primary; // Sử dụng kiểu Bootstrap cho nút sửa
+      }
+      
+
+    }
+  }
+}

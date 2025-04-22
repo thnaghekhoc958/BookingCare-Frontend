@@ -1,0 +1,105 @@
+.manage-specialty-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    .ms-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+  
+    .add-new-specialty {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+  
+      .form-group {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        
+        label {
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+  
+        input {
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 1rem;
+          transition: border-color 0.3s;
+  
+          &:focus {
+            border-color: #007bff;
+            outline: none;
+          }
+        }
+      }
+    }
+  
+    .manage-doctor-editor {
+      margin-top: 20px;
+      .md-editor {
+        height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  
+    .button-group {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+  
+      .btn {
+        background-color: #007bff;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+  
+        &:active {
+          background-color: #003f7f;
+        }
+      }
+    }
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+      min-height: 100px;
+  
+      &:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+    }
+  }
+  

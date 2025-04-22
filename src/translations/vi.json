@@ -1,0 +1,269 @@
+
+{
+  "home-header": {
+    "speciality": "chuyên khoa",
+    "find a doctor by specialty": "tìm bác sĩ theo chuyên khoa",
+    "choose a hospital clinic": "chọn bệnh viện phòng khám",
+    "healthcare facility": "cơ sỡ y tế",
+    "Doctors": "Bác sĩ",
+    "Choose Doctors": "chọn bác sĩ",
+    "Examination Package": "Gói Khám",
+    "general health check-up": "khám sức khỏe tổng quát",
+    "Support": "Hổ Trợ",
+    "HEALTHCARE SERVICE PLATFORM": " NỀN TẢNG Y TẾ DỊCH VỤ CHĂM SÓC SỨC KHỎE",
+    "BRINGING THE BEST EXPERIENCE TO CUSTOMERS": "MANG ĐẾN TRẢI NGHIỆM TỐT NHẤT CHO KHÁCH HÀNG",
+    "Find a Specialist for Medical Examination": " Tìm chuyên khoa Khám bệnh",
+    "Specialized Examination": "Khám Chuyên Khoa",
+    "Remote Examination": "Khám từ xa",
+    "General Check-up": "Khám Tổng Quát",
+    "Medical examination test": "Khám xét Nghiệm y học",
+    "Mental Health": "sức Khỏe tinh thần",
+    "Dental Examination": "Khám Nha Khoa",
+    "welcome": "Xin Chào, "
+  },
+  "facility": {
+    "healthcare facility": "Cơ sỡ y tế",
+    "see more": "Xem thêm",
+
+    "Vietduc University Hospital": "Bệnh viện hữu nghị Việt-Đức",
+    "Cho ray Hopspital": "Bệnh viện chợ rẫy",
+    "Doctor Check": "Doctor Check-Trung Tâm Tầm Soát Bệnh Chuyên Sâu",
+    "University Medical Center Clinic 1 ": "Phòng khám Bệnh viện Đại học Y Dược 1",
+    "Periodic Health Examination Center, 108 Military Central Hospital": "trung tâm khám sức khỏe định kỳ bệnh viện trung ương quân đội 108",
+    "Hung Viet Cancer Hospital": "bệnh viện ung bướu Hưng Việt"
+  },
+
+  "specialty": {
+    "popular specialty": "Chuyên Khoa phổ biến",
+    "see more": "Xem thêm",
+
+    "musculoskeletal system": "Cơ xương Khớp",
+    "nervous system": "Thần kinh",
+    "digestive system": "hệ Tiêu Hóa",
+    "cardiovascular disease": "Bệnh tim mạch",
+    "otorhinolaryngology ": "Tai-Mũi-Họng",
+    "spine": "Cột Sống"
+  },
+
+  "Doctor": {
+    "Doctor of the Week": "Bác sĩ nổi bật trong tuần",
+    "associate professor,Doctor of Philosophy,Doctor": "phó giáo sư,tiến sĩ,bác sĩ",
+    "associate professor,Doctor of Philosophy": "phó giáo sư,tiến sĩ",
+    "Doctor of Philosophy, Doctor specialty": "Tiến sĩ, Bác sĩ chuyên Khoa",
+    "Doctor Specialty": " Bác Sĩ Chuyên Khoa",
+    "Doctor of Philosophy,Doctor": "Tiến sĩ, Bác sĩ",
+
+    "Dr.Nguyen Trong Hung": "Nguyễn trọng Hưng",
+    "Dr.Nguyen Van Lieu": "Nguyễn Văn Liệu",
+    "Dr.Kieu Dinh Hung": "Kiều Đình Hùng",
+    "Dr.Tra Anh Duy": "Trà Anh Duy",
+    "Dr.Phan Vuong Huy Dong": "Phan Vương Huy Đổng",
+    "Dr.Pham Chi Lang": "Phạm Chí Lăng",
+
+    "content-doctor": {
+        "createContentOfDoctor": "Tạo Thông Tin Doctor",
+        "ChooseDoctor": "Chọn Bác Sĩ",
+        "introductionInformation": "Thông Tin Giới Thiệu",
+
+        "Price" : "Giá",
+        "Province" : "Tỉnh Thành",
+        "Payment" : "Hình Thức Thanh Toán",
+        "AddressClinic" : "Địa Chỉ Phòng Khám",
+        "ClinicName" : "Tên Phòng Khám Chuyên Khoa",
+        "Note": "Ghi Chú",
+        "medicalAppiontment": {
+          "SCHEDULEANAPPOINTMENT": "ĐẶT LỊCH KHÁM BỆNH",
+          "fullName": "Họ Và Tên",
+          "PhoneNumber": "Số Điện Thoại",
+          "ContactAddress": "Địa Chỉ Liên Hệ",
+          "ReasonForExamination": "Lý Do Khám Bệnh",
+          "ForSomeone": "Dành Cho Ai?",
+          "Gender":"Giới tính",
+          "birthday": "Ngày Sinh"
+        }
+    }
+  },
+
+  "Guide":{
+    "Guide": "Cẩm Nang"
+  },
+
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-redux": "quản lý user redux",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+      },
+      "system-parameter": {
+        "header": "Tham số hệ thống"
+      }
+    },
+
+    "admin": {
+      "manager-user": " Người Dùng",
+      "manager-doctor": "Quản Lý Bác Sĩ",
+      "manager-admin": "Quản Lý Admin",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD REDUX",
+
+      "clinic": " Phòng khám",
+      "manage-clinic": " Quản lý Phòng Khám",
+
+      "specialty": " Chuyên Khoa",
+      "manage-specialty": " Quản Lý Chuyên Khoa",
+
+      "handbook": "Cẩm Nang",
+      "manage-handbook": "Quản Lý Cẩm Nang"
+
+
+    },
+    "doctor": {
+      "manager-schedule": "Quản Lý Kế Hoạch Khám Bệnh"
+
+    }
+  },
+
+  "manage-user" : {
+    "add": "Thêm Mới Người Dùng",
+    "Edit User With Redux": "Chỉnh Sửa Người Dùng",
+
+    "Index": "Số Thứ Tự",
+    "Password": "Mật khẩu",
+    "Full Name": " Họ và tên ",
+    "Phone Number": "Số Điện Thoại",
+    "Address": "Số Địa Chỉ Nhà",
+    "Image": "Tải Ảnh Đại Diện!",
+    "Gender": "Giới tính",
+    "Position" : "Vị Trí",
+    "Role Id": " Quyền Hạn Của Người Sử Dụng",
+    "Save": "Lưu lại Thông Tin",
+    "view-table": "bảng thông tin tất cả người dùng",
+    "Action": "Hành Động"
+  },
+
+
+  "common": {
+    "add": "Thêm",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "decentralize": "Phân quyền",
+    "close": "Đóng",
+    "save": "Lưu",
+    "refresh": "Refresh",
+    "accept": "Chấp nhận",
+    "confirm": "Xác nhận",
+    "confirm-this-task": "Bạn có chắc chắn thực hiện tác vụ này?",
+    "fail-to-load-data": "Không thể tải về dữ liệu",
+    "unknown-error": "Có lỗi xảy ra",
+    "internal-server-error": "Lỗi kết nối",
+    "bad-request": "Yêu cầu không hợp lệ",
+    "forbiden-request": "Thông tin truyền vào không hợp lệ",
+    "fail-to-load-all-code": "Không thể tải về dữ liệu allcode",
+    "sum": "Tổng",
+    "date-range-invalid": "Khoảng thời gian không hợp lệ"
+  },
+  "login": {
+    "login": "Đăng nhập",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "userpass-wrong": "Sai tên đăng nhập hoặc mật khẩu!"
+  },
+
+
+
+  "system": {
+    "user-manage": {
+      "fail-to-load-fouser": "Không thể tải về danh sách người dùng",
+      "user-id": "Mã người sử dụng",
+      "usertype": "Loại người dùng",
+      "username": "Tên người dùng",
+      "fullname": "Tên đầy đủ",
+      "mobile": "Số điện thoại",
+      "email": "Email",
+      "status": "Trạng thái",
+      "add-user": "Thêm người dùng",
+      "edit-user": "Sửa thông tin người dùng",
+      "password": "Mật khẩu",
+      "retype-password": "Nhập lại mật khẩu",
+      "add-user-success": "Thêm người dùng thành công",
+      "edit-user-success": "Thay đổi thông tin người dùng thành công",
+      "add-user-fail": "Thêm người dùng thất bại",
+      "edit-user-fail": "Thay đổi thông tin người dùng thất bại",
+      "del-user-success": "Xóa người dùng thành công",
+      "del-user-fail": "Xóa người dùng thất bại",
+      "invalid-input": {
+        "username": "Quý khách vui lòng nhập tên người dùng",
+        "fullname": "Quý khách vui lòng nhập tên đầy đủ",
+        "password": "Quý khách vui lòng nhập mật khẩu"
+      },
+      "sure-delete-user": "Bạn có chắc chắn muốn xóa người dùng này?"
+    },
+    "product-manage": {
+      "fail-to-load-foprtype": "Không thể tải về danh sách gói",
+      "prid": "Mã gói",
+      "prname": "Tên gói",
+      "prtype": "Loại gói",
+      "status": "Trạng thái",
+      "description": "Diễn giải",
+      "effective-date": "Ngày hiệu lực",
+      "expiration-date": "Ngày hết hiệu lực",
+      "add-product": "Thêm gói",
+      "add-product-success": "Thêm gói thành công",
+      "add-product-fail": "Thêm gói thất bại",
+      "edit-product": "Sửa thông tin gói",
+      "package-decentralize": "Phân quyền chức năng",
+      "edit-product-success": "Thay đổi thông tin gói thành công",
+      "edit-product-fail": "Thay đổi thông tin gói thất bại",
+      "delete-product-success": "Xóa gói thành công",
+      "delete-product-fail": "Xóa gói thất bại",
+      "invalid-input": {
+        "prid": "Quý khách vui lòng nhập mã gói",
+        "prname": "Quý khách vui lòng nhập tên gói"
+      },
+      "fail-to-load-decentralize-info": "Không thể tải về thông tin phân quyền chức năng",
+      "save-decentralize-success": "Lưu phân quyền chức năng thành công",
+      "save-decentralize-fail": "Lưu phân quyền chức năng thất bại",
+      "sure-delete-package": "Bạn có chắc chắn muốn xóa gói này?"
+    },
+    "register-package-group-or-acc": {
+      "assign-service-package-to-customer": "Gán gói dịch vụ cho khách hàng",
+      "package-name": "Tên gói",
+      "assign-type": "Loại gán",
+      "cust-acc-group": "Nhóm KH/Tài khoản",
+      "effective-date": "Ngày hiệu lực",
+      "expiration-date": "Ngày hết hiệu lực",
+      "assign": "Gán",
+      "manage-assign-groups": "Quản lý gán nhóm",
+      "group-cust-acc-name": "Tên nhóm/tài khoản KH",
+      "del-assign": "Xóa gán",
+      "fail-to-load-manage-assign-groups-list": "Không thể tải về thông tin quản lý gán nhóm",
+      "invalid-selected": {
+        "currentfoProduct": "Gói đang chọn không hợp lệ",
+        "currentAssignType": "Loại gán không hợp lệ",
+        "currentFoUser": "Nhóm KH/Tài khoản không hợp lệ"
+      },
+      "assign-service-package-to-customer-success": "Gán gói dịch vụ cho khách hàng thành công",
+      "assign-service-package-to-customer-fail": "Gán gói dịch vụ cho khách hàng thất bại",
+      "remove-assign-success": "Bỏ gán gói dịch vụ cho khách hàng thành công",
+      "remove-assign-fail": "Bỏ gán gói dịch vụ cho khách hàng thất bại",
+      "sure-delete-assign": "Bạn có chắc chắn muốn bỏ gán gói dịch vụ cho khách hàng?"
+    }
+  },
+
+  "schedule": {
+    "title": "Quản Lý Kế Hoạch Bác Sĩ",
+    "chooseDoctor" : "Chọn Bác Sĩ",
+    "chooseDateTime": "Chọn Ngày",
+    "chooseTime" : "Chọn Thời Gian Khám"
+  },
+
+  "error": {
+    "rangTime": "Bạn chưa tạo đầu vào khoảng thời gian!",
+    "StartTime": "bạn chưa tạo đầu vào thời gian",
+    "EndTime": "bạn chưa tạo cuối khoảng thời gian"
+  }
+
+}
